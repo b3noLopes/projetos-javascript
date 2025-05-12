@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Operações Matemáticas</title>
+    </head>
+    <body>
+        
+        <h1>Operações Matemáticas</h1>
+
+        <script>
+            let valor1 = parseFloat(prompt('Digite um número:'));
+            let valor2 = parseFloat(prompt('Digite outro número:'));
+
+            let soma = valor1 + valor2;
+            let subtracao = valor1 - valor2;
+            let multiplicacao = valor1 * valor2;
+            let divisao = valor1/valor2;
+            let media = (valor1 + valor2)/2;
+
+            console.log(`${valor1} + ${valor2} = ${soma}`);
+            console.log(`${valor1} - ${valor2} = ${subtracao}`);
+            console.log(`${valor1} x ${valor2} = ${multiplicacao}`);
+            console.log(`${valor1} : ${valor2} = ${divisao.toFixed(1)}`);
+            console.log(`A média entre ${valor1} e ${valor2} é igual a ${media}`);
+        </script>
+
+    </body>
+</html>
